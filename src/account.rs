@@ -440,6 +440,10 @@ pub enum Asset {
     Dogwifhat = 14,
     Render = 15,
     Tensor = 16,
+    POPCAT = 17,
+    EIGEN = 18,
+    DBR = 19,
+    GOAT = 20,
     UNDEFINED = 255,
 }
 
@@ -469,6 +473,10 @@ pub fn asset_to_string(asset: Asset) -> String {
         Asset::Dogwifhat => "WIF".to_string(),
         Asset::Render => "RNDR".to_string(),
         Asset::Tensor => "TNSR".to_string(),
+        Asset::POPCAT => "POPCAT".to_string(),
+        Asset::EIGEN => "EIGEN".to_string(),
+        Asset::DBR => "DBR".to_string(),
+        Asset::GOAT => "GOAT".to_string(),
         Asset::UNDEFINED => "UNDEFINED".to_string(),
     }
 }

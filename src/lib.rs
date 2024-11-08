@@ -33,7 +33,7 @@ impl anchor_lang::Id for Dex {
     }
 }
 
-anchor_gen::generate_cpi_interface!(idl_path = "idl.json",);
+anchor_gen::generate_cpi_interface!(idl_path = "idl.json");
 
 pub use crate::account::*;
 pub use crate::constants::*;
