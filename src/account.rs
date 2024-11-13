@@ -444,6 +444,7 @@ pub enum Asset {
     EIGEN = 18,
     DBR = 19,
     GOAT = 20,
+    DRIFT = 21,
     UNDEFINED = 255,
 }
 
@@ -477,6 +478,7 @@ pub fn asset_to_string(asset: Asset) -> String {
         Asset::EIGEN => "EIGEN".to_string(),
         Asset::DBR => "DBR".to_string(),
         Asset::GOAT => "GOAT".to_string(),
+        Asset::DRIFT => "DRIFT".to_string(),
         Asset::UNDEFINED => "UNDEFINED".to_string(),
     }
 }
